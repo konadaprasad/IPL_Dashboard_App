@@ -1,0 +1,33 @@
+/* Write your CSS here */
+.main-container {
+  display: flex;
+  flex-direction: column;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/ipl-dashboard-lg-bg.png');
+  background-size: cover;
+  font-family: 'Bree Serif';
+  padding: 20px;
+}
+.logo-cont {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.logo-img {
+  height: 70px;
+  width: 70px;
+  margin-right: 10px;
+}
+.heading {
+  font-size: 55px;
+  font-weight: bold;
+  color: #ffffff;
+}
+.items-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}

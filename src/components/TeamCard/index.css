@@ -1,0 +1,27 @@
+.list-cont {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  border: solid 2px #ffffff;
+  background-color: #ffffff33;
+  background-size: cover;
+  border-radius: 10px;
+  list-style-type: none;
+  height: 190px;
+  width: 450px;
+  margin: 20px;
+  padding: 20px;
+}
+.team-img {
+  height: 150px;
+  width: 150px;
+  margin-right: 10px;
+}
+.heading1 {
+  font-size: 26px;
+  font-weight: bold;
+  color: #ffffff;
+  margin-right: 10px;
+}
