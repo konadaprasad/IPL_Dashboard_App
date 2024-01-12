@@ -7,10 +7,10 @@ const TeamCard = props => {
   const {id, name, teamImageUrl} = teamList
 
   return (
-    <Link to={`/ipl/${id}`} className="item-link">
+    <Link to={`/team-matches/${id}`} className="item-link">
       <li className="list-cont">
         <img src={teamImageUrl} alt={name} className="team-img" />
-        <h1 className="heading1">{name}</h1>
+        <p className="heading1">{name}</p>
       </li>
     </Link>
   )
